@@ -67,3 +67,32 @@ The **production branch** (often named `main` or `master`) represents the versio
 * **Workflow:** Development work happens in feature branches, which are then integrated (via staging/UAT) into the production branch once they are proven stable and correct.
 
 ---
+
+## Handling Issues and Dealing with Git Commands
+
+### Resolving Merge Conflicts: General Best Practices
+
+To minimize merge conflicts and make them easier to resolve when they occur, follow these general best practices:
+
+* **Commit often and in small, logical chunks** to make issues easier to track and revert if necessary.
+* **Write meaningful commit messages** that explain **what** and **why**, not just how, the changes were made.
+* **Use branches for new features/fixes** to isolate changes from the main codebase until they are fully ready.
+* **Regularly pull/fetch** updates from the remote repository to stay in sync with teammates' work and prevent large, complex conflicts later.
+* Use `git status` **frequently** to be aware of the current state of your repository (staged, unstaged, untracked files).
+* **Back up your repository** and use a disaster recovery plan to prevent data loss.
+
+---
+
+## Software Development Tools
+
+**Development tools** are software applications used by programmers to **create, test, debug, and maintain** other software and programs.
+
+* These tools **speed up the development process** by providing specialized features.
+* Key features often include:
+    * Code editors
+    * Compilers
+    * Debuggers
+    * Build automation tools
+* Common examples include **Integrated Development Environments (IDEs)**, which combine multiple tools into one interface, and web development tools built into browsers.
+
+---
